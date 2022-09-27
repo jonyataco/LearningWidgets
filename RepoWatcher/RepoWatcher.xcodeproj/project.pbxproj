@@ -20,6 +20,7 @@
 		C352744128E2AA51003D5378 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C352743E28E2A3D0003D5378 /* Repository.swift */; };
 		C3A9081528E3502C00C54A0B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A9081428E3502C00C54A0B /* NetworkManager.swift */; };
 		C3A9081628E3502C00C54A0B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A9081428E3502C00C54A0B /* NetworkManager.swift */; };
+		C3A9081828E3667500C54A0B /* RepoMediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A9081728E3667500C54A0B /* RepoMediumView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		C352743628E2A11B003D5378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C352743E28E2A3D0003D5378 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		C3A9081428E3502C00C54A0B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = RepoWatcher/NetworkManager.swift; sourceTree = SOURCE_ROOT; };
+		C3A9081728E3667500C54A0B /* RepoMediumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoMediumView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				C352743228E2A11A003D5378 /* RepoWatcherWidget.swift */,
 				C352743428E2A11B003D5378 /* Assets.xcassets */,
 				C352743628E2A11B003D5378 /* Info.plist */,
+				C3A9081728E3667500C54A0B /* RepoMediumView.swift */,
 			);
 			path = RepoWatcherWidget;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3A9081628E3502C00C54A0B /* NetworkManager.swift in Sources */,
+				C3A9081828E3667500C54A0B /* RepoMediumView.swift in Sources */,
 				C352743328E2A11A003D5378 /* RepoWatcherWidget.swift in Sources */,
 				C352744128E2AA51003D5378 /* Repository.swift in Sources */,
 			);
